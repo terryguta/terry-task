@@ -1,0 +1,49 @@
+{
+    "menu": [
+        {
+            "navHeader": "Main"
+        },
+        {
+            "icon": "home",
+            "name": "Dashboard",
+            "route": "vh-dashboard"
+        },
+
+        {
+            "icon": "database",
+            "name": "All requests",
+            "route": "vh-all-requests"
+        },
+
+        {
+            "icon": "user-check",
+            "name": "My requests",
+            "route": "vh-my-requests"
+        },
+
+        {
+            "icon": "truck",
+            "name": "Vehicles",
+            "route": "vh-all-vehicles"
+        },
+
+        {
+            "icon": "eye",
+            "name": "Available Vehicles",
+            "route": "vh-available-vehicles"
+        },
+
+        {
+            "icon": "thumbs-up",
+            "name": "HOD approvals",
+            "route": "vh-hod-approval"
+        },
+
+        {
+            "icon": "file-text",
+            "name": "Reports",
+            "route": "vh-reports"
+        }
+
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "menu": [
+        {
+            "navHeader": "Main"
+        },
+        {
+            "icon": "add",
+            "name": "New Receipt",
+            "route": ""
+        },
+        {
+            "icon": "add",
+            "name": "All Receipt",
+            "route": ""
+        },
+        {
+            "icon": "add",
+            "name": "My receipts",
+            "route": ""
+        },
+        {
+            "icon": "add",
+            "name": "Acc Holder Receipts",
+            "route": ""
+        },
+        {
+            "icon": "add",
+            "name": "Non Acc Holder Receipts",
+            "route": ""
+        },
+        {
+            "icon": "add",
+            "name": "Reports",
+            "route": ""
+        }
+    ]
+}

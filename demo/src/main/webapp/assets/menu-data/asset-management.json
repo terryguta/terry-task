@@ -1,0 +1,77 @@
+{
+    "menu": [
+        {
+            "navHeader": "Main"
+        },
+        {
+            "icon": "home",
+            "name": "Dashboard",
+            "route": "am-dashboard"
+        },
+        {
+            "icon": "folder",
+            "name": "Register Assets",
+            "route": "am-register-asset"
+
+        },
+        {
+            "icon": "list",
+            "name": "Manage Assets",
+            "route": "am-manage-asset"
+
+        },
+
+        {
+            "icon": "trash",
+            "name": "Disposal",
+            "route": "am-dispose-asset"
+
+        },
+        {
+            "icon": "file-text",
+            "name": "Manage Reports",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Assets",
+                    "route": "am-report-asset"
+                },
+                {
+                    "name": "Disposal",
+                    "route": "am-report-dispose"
+                },
+                {
+                    "name": "Maintenance",
+                    "route": "am-report-maintenance"
+                }
+            ]
+        },
+        {
+            "icon": "settings",
+            "name": "Settings",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Classification",
+                    "route": "am-classification"
+                },
+                {
+                    "name": "Category",
+                    "route": "am-category"
+                },
+                {
+                    "name": "Types",
+                    "route": "am-type"
+                },
+                {
+                    "name": "Group",
+                    "route": "am-group"
+                },
+                {
+                    "name": "Location",
+                    "route": "am-location"
+                }
+            ]
+        }
+    ]
+}

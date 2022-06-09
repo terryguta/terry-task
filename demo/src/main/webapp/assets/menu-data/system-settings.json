@@ -1,0 +1,62 @@
+{
+    "menu": [
+        {
+            "navHeader": "Main"
+        },
+        {
+            "icon": "home",
+            "name": "Dashboard",
+            "route": "system-settings"
+        },
+        {
+            "icon": "users",
+            "name": "System Users",
+            "route": "system-settings-users"
+        },
+        {
+            "icon": "user",
+            "name": "Employees",
+            "route": "system-settings-employees"
+        },
+        {
+            "icon": "user-check",
+            "name": "User Roles",
+            "route": "system-settings-user-roles"
+        },
+        {
+            "icon": "database",
+            "name": "Auth Management",
+            "route": "system-settings-auth-management"
+        },
+        {
+            "icon": "monitor",
+            "name": "Company Details",
+            "route": "system-settings-company-details"
+        },
+        {
+            "icon": "briefcase",
+            "name": "Banking Details",
+            "route": "system-settings-banking-details"
+        },
+        {
+            "icon": "credit-card",
+            "name": "Currencies",
+            "route": "system-settings-currencies"
+        },
+        {
+            "icon": "codepen",
+            "name": "Departments",
+            "route": "system-settings-departments"
+        },
+        {
+            "icon": "hard-drive",
+            "name": "Sections",
+            "route": "system-settings-sections"
+        },
+        {
+            "icon": "map-pin",
+            "name": "Locations",
+            "route": "system-settings-locations"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "menu": [{
+            "navHeader": "Main"
+        },
+        {
+            "icon": "home",
+            "name": "Dashboard",
+            "route": "fm-dashboard"
+        },
+        {
+            "icon": "truck",
+            "name": "Manage Vehicles",
+            "route": "fm-manage-vehicles"
+        },
+        {
+            "icon": "users",
+            "name": "Manage Drivers",
+            "route": "fm-manage-drivers"
+        },
+
+
+        {
+            "icon": "dollar-sign",
+            "name": "Business Expenses",
+            "route": "fm-business-expenses"
+        },
+        {
+            "icon": "help-circle",
+            "name": "Vehicle Requests",
+            "route": "fm-vehicle-requests"
+        },
+        {
+            "icon": "settings",
+            "name": "Settings",
+            "route": "",
+            "subMenu": [{
+
+                    "name": "Configurations",
+                    "route": "fm-configurations"
+                },
+                {
+
+                    "name": "Sent Management Emails",
+                    "route": "fm-manager-details"
+                }
+
+
+            ]
+        },
+        {
+            "icon": "bar-chart-2",
+            "name": "Management Reports",
+            "route": "fm-management-reports"
+
+        }
+
+
+    ]
+}

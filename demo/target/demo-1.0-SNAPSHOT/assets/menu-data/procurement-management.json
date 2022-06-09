@@ -1,0 +1,164 @@
+{
+    "menu": [
+        {
+            "navHeader": "Main"
+        },
+        {
+            "icon": "home",
+            "name": "Dashboard",
+            "route": "pm-dashboard"
+        },
+        {
+            "icon": "shopping-cart",
+            "name": "Requisitions",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Create Requisitions",
+                    "route": "",
+                    "modal": "add-requisition"
+                },
+                {
+                    "name": "All Requisitions",
+                    "route": "pm-all-requisitions"
+                }
+            ]
+        },
+        {
+            "icon": "server",
+            "name": "Approvals",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Approvals (CEO)",
+                    "route": ""
+                },
+                {
+                    "name": "Approvals (FD)",
+                    "route": ""
+                }
+            ]
+        },
+        {
+            "icon": "check-square",
+            "name": "Allocations",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Allocations (FD)",
+                    "route": ""
+                },
+                {
+                    "name": "My Allocations",
+                    "route": ""
+                },
+                {
+                    "name": "All Allocations",
+                    "route": ""
+                },
+                {
+                    "name": "Budget Allocations",
+                    "route": ""
+                }
+            ]
+        },
+        {
+            "icon": "list",
+            "name": "Direct/Tender",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Create Direct Request",
+                    "route": ""
+                },
+                {
+                    "name": "Tender",
+                    "route": ""
+                },
+                {
+                    "name": "Approve Direct(PM)",
+                    "route": ""
+                }
+            ]
+        },
+        {
+            "icon": "shopping-cart",
+            "name": "RFQs",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Create RFQ",
+                    "route": ""
+                },
+                {
+                    "name": "Pending RFQs",
+                    "route": ""
+                },
+                {
+                    "name": "My RFQs",
+                    "route": ""
+                },
+                {
+                    "name": "View All RFQs",
+                    "route": ""
+                }
+            ]
+        },
+        {
+            "icon": "shopping-bag",
+            "name": "Order Management",
+            "route": ""
+        },
+        {
+            "icon": "user-check",
+            "name": "Certificate of Completion",
+            "route": ""
+        },
+        {
+            "icon": "bar-chart-2",
+            "name": "Variation Management",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Price Variations",
+                    "route": ""
+                },
+                {
+                    "name": "Submit Variations",
+                    "route": ""
+                },
+                {
+                    "name": "Approve Variations",
+                    "route": ""
+                }
+            ]
+        },
+        {
+            "icon": "monitor",
+            "name": "Suppliers",
+            "route": "system-settings-company-details",
+            "subMenu" : [
+                {
+                    "name": "Add Supplier",
+                    "route": "",
+                    "modal": "add-supplier"
+                },
+                {
+                    "name": "All Suppliers",
+                    "route": "pm-all-suppliers"
+                }
+            ]
+        },
+        {
+            "icon": "sliders",
+            "name": "Settings",
+            "route": "",
+            "subMenu" : [
+                {
+                    "name": "Configurations",
+                    "route": "pm-all-configurations"
+                }
+            ]
+        }
+    ]
+}

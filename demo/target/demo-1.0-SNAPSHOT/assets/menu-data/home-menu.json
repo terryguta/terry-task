@@ -1,0 +1,22 @@
+{
+    "menu": [
+        {
+            "navHeader": "Main"
+        },
+        {
+            "icon": "home",
+            "name": "Dashboard",
+            "route": "home"
+        },
+        {
+            "icon": "refresh-ccw",
+            "name": "Change Password",
+            "route": ""
+        },
+        {
+            "icon": "log-out",
+            "name": "Logout",
+            "route": "custom-logout"
+        }
+    ]
+}

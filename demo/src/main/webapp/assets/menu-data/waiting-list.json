@@ -1,0 +1,57 @@
+{
+    "menu": [
+        {
+            "navHeader": "Main"
+        },
+        {
+            "icon": "home",
+            "name": "Dashboard",
+            "route": "wl-dashboard"
+        },
+        {
+            "icon": "settings",
+            "name": "Add New",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "For Stands",
+                    "route": "wl-new-user"
+                },
+                {
+                    "name": "For Markets",
+                    "route": "wl-add-market-member"
+                }
+            ]
+        },
+        {
+            "icon": "settings",
+            "name": "Manage Waiting List",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "For Stands",
+                    "route": "wl-show"
+                },
+                {
+                    "name": "For Markets",
+                    "route": "wl-markets-list"
+                }
+            ]
+        },
+        {
+            "icon": "settings",
+            "name": "Settings",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Applications Specific",
+                    "route": "wl-configuration"
+                },
+                {
+                    "name": "Scores",
+                    "route": "wl-edit-points"
+                }
+            ]
+        }
+    ]
+}

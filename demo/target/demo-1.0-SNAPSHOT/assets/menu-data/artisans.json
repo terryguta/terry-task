@@ -1,0 +1,40 @@
+{
+    "menu": [
+        {
+            "navHeader": "Main"
+        },
+        {
+            "icon": "home",
+            "name": "Dashboard",
+            "route": "at-dashboard"
+        },
+
+        {
+            "icon": "users",
+            "name": "Manage Artisans",
+            "route": "at-manageArtisans"
+        },
+        {
+            "icon": "database",
+            "name": "Manage Permits",
+            "route": "at-permits"
+        },
+        {
+            "icon": "monitor",
+            "name": "Management reports",
+            "route": ""
+        },
+        {
+            "icon": "settings",
+            "name": "Settings",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Configurations",
+                    "route": "at-artisanSettings"
+                }
+            ]
+        }
+
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "menu": [
+        {
+            "navHeader": "ANNUITY BILLING"
+        },
+        {
+            "icon": "home",
+            "name": "Create Bill Setting",
+            "route": ""
+        },
+        {
+            "icon": "home",
+            "name": "All Bill Settings",
+            "route": ""
+        },
+        {
+            "icon": "home",
+            "name": "All Annuity Bills",
+            "route": ""
+        },
+        {
+            "navHeader": "ACCOUNT SETTINGS"
+        },
+        {
+            "icon": "add",
+            "name": "Account Classes",
+            "route": ""
+        },
+        {
+            "icon": "home",
+            "name": "Account Category",
+            "route": ""
+        },
+        {
+            "navHeader": "SERVICES & TARRIFS"
+        },
+        {
+            "icon": "add",
+            "name": "Services",
+            "route": ""
+        },
+        {
+            "icon": "home",
+            "name": "Rates tarrifs",
+            "route": ""
+        },
+        {
+            "icon": "home",
+            "name": "Reports",
+            "route": ""
+        },
+        {
+            "icon": "log-out",
+            "name": "Return",
+            "route": "home"
+        }
+    ]
+}

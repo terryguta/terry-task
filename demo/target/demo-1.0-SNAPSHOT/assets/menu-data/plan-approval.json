@@ -1,0 +1,72 @@
+{
+    "menu": [
+        {
+            "navHeader": "Main"
+        },
+        {
+            "icon": "home",
+            "name": "Dashboard",
+            "route": "pa-dashboard"
+        },
+        {
+            "icon": "settings",
+            "name": "Plans",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "New Plan",
+                    "route": ""
+                },
+
+
+                {
+                    "name": "Accept plans",
+                    "route": ""
+                },
+
+                {
+                    "name": "My  plans",
+                    "route": ""
+                },
+
+
+
+                {
+                    "name": "Approved plans",
+                    "route": ""
+                }
+
+            ]
+
+        },
+
+
+
+        {
+            "icon": "settings",
+            "name": "Settings",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Configurations",
+                    "route": "pa-settings"
+                }
+            ]
+        },
+
+
+        {
+            "icon": "settings",
+            "name": "Management reports",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Reports",
+                    "route": "pa-settings"
+                }
+            ]
+        }
+
+
+    ]
+}

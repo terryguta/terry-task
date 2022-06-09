@@ -1,0 +1,35 @@
+{
+    "menu": [
+        {
+            "navHeader": "Main"
+        },
+        {
+            "icon": "home",
+            "name": "Dashboard",
+            "route": "internal-audit"
+        },
+        {
+            "icon": "monitor",
+            "name": "Info",
+            "route": "info-logs"
+        },
+        {
+            "icon": "shield",
+            "name": "Warning",
+            "route": "warning-logs"
+        },
+        {
+            "icon": "help-circle",
+            "name": "Error",
+            "route": "error-logs"
+        },
+        {
+            "navHeader": "Shell"
+        },
+        {
+            "icon": "log-out",
+            "name": "Return",
+            "route": "home"
+        }
+    ]
+}

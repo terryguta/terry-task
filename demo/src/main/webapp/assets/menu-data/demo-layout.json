@@ -1,0 +1,35 @@
+{
+    "menu": [
+        {
+            "navHeader": "Main"
+        },
+        {
+            "icon": "home",
+            "name": "Dashboard",
+            "route": ""
+        },
+        {
+            "icon": "list",
+            "name": "View Requests",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "All requests",
+                    "route": ""
+                },
+                {
+                    "name": "My requests",
+                    "route": ""
+                }
+            ]
+        },
+        {
+            "navHeader": "Shell"
+        },
+        {
+            "icon": "log-out",
+            "name": "Return",
+            "route": "home"
+        }
+    ]
+}

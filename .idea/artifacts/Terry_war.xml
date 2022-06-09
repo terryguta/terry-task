@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Terry:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Terrry</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Terry-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Terry:war exploded" />
+    </root>
+  </artifact>
+</component>

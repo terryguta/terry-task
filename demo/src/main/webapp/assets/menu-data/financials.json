@@ -1,0 +1,122 @@
+{
+    "menu": [
+        {
+            "navHeader": "MAIN"
+        },
+        {
+            "icon": "home",
+            "name": "Dashboard",
+            "route": "home"
+        },
+        {
+            "icon": "home",
+            "name": "Local Chart",
+            "route": "home"
+        },
+        {
+            "icon": "home",
+            "name": "National Chart",
+            "route": "home"
+        },
+        {
+            "icon": "home",
+            "name": "Income Statement",
+            "route": "home"
+        },
+        {
+            "icon": "home",
+            "name": "Expenditure Transaction",
+            "route": "home"
+        },
+        {
+            "icon": "list",
+            "name": "Ledger",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Customer Ledger",
+                    "route": ""
+                },
+                {
+                    "name": "Supplier Ledger",
+                    "route": ""
+                },
+                {
+                    "name": "General",
+                    "route": ""
+                }
+            ]
+        },
+        {
+            "icon": "list",
+            "name": "Financial Statements",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Income Statements",
+                    "route": ""
+                },
+                {
+                    "name": "Balance Statemets",
+                    "route": ""
+                },
+                {
+                    "name": "Trial Balance",
+                    "route": ""
+                }
+            ]
+        },
+        {
+            "icon": "refresh-ccw",
+            "name": "Change Password",
+            "route": ""
+        },
+        {
+            "navHeader": "SETTINGS"
+        },
+        {
+            "icon": "home",
+            "name": "Accounting Periods",
+            "route": "home"
+        },
+        {
+            "icon": "home",
+            "name": "Currencies",
+            "route": "home"
+        },
+        {
+            "icon": "home",
+            "name": "Payment Methods",
+            "route": "home"
+        },
+        {
+            "icon": "home",
+            "name": "Bank Accounts",
+            "route": "home"
+        },
+        {
+            "icon": "list",
+            "name": "Chart Settings",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Categories",
+                    "route": ""
+                },
+                {
+                    "name": "Sub Categories",
+                    "route": ""
+                },
+                {
+                    "name": "Types",
+                    "route": ""
+                }
+            ]
+        },
+        {
+            "icon": "log-out",
+            "name": "Logout",
+            "route": "custom-logout"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "menu": [
+        {
+            "navHeader": "Main"
+        },
+        {
+            "icon": "home",
+            "name": "Dashboard",
+            "route": "nt-dashboard"
+        },
+        {
+            "icon": "bell",
+            "name": "Send Notifications",
+            "route": "nt-create"
+        },
+        {
+            "icon": "server",
+            "name": "Manage Notifications",
+            "route": "warning-logs"
+        },
+        {
+            "icon": "settings",
+            "name": "Settings",
+            "route": "",
+            "subMenu": [
+                {
+                    "name": "Account Balances",
+                    "route": "nt-account-balances"
+                }
+            ]
+        },
+        {
+            "icon": "log-out",
+            "name": "Return",
+            "route": "home"
+        }
+    ]
+}
